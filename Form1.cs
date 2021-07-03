@@ -169,9 +169,9 @@ namespace EntityOrnek
             }
             if (radioButton12.Checked == true)
             {
-                //en yüksdüşükek fiyat
+                //en düşük fiyat
                 var lower = northwindEntities.Products.Min(p => p.UnitPrice);
-                MessageBox.Show("en yüksdüşükek fiyat : " + lower.ToString());
+                MessageBox.Show("en düşük fiyat : " + lower.ToString());
             }
 
         }
